@@ -1,0 +1,32 @@
+.detalhesEvento{
+	box-shadow: 0px 0px 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 60px;	
+}	
+.formConvidado{
+	box-shadow: 0px 0px 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+}
+.tabelaConvidado{
+	box-shadow: 0px 0px 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 60px;	
+}
+.eventosForm{
+	box-shadow: 0px 0px 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 60px;
+}
+.formEventos{
+	box-shadow: 0px 0px 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;	
+	margin-bottom: 60px;
+}

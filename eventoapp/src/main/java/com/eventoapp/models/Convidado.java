@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotEmpty;
 
+
 @Entity
 public class Convidado implements Serializable{
 	
@@ -16,10 +17,12 @@ public class Convidado implements Serializable{
 	
 	
 	@Id
-	@NotEmpty
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long codigo;
+	
+	@NotEmpty
 	public String rg;
+	@NotEmpty
 	public String nomeConvidado;
 	
 	@ManyToOne
